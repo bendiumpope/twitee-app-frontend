@@ -6,8 +6,11 @@ I found out about Vite and I wanted to have a boilerplate for the technologies t
 
 ## Installation
 
-Clone the repo and run `yarn install`
+Clone the repo and run `yarn`
 
 ## Start
 
-After the successfull installation of the packages: `yarn start`
+After the successfull installation of the packages, run: `yarn dev`
+
+## This application should run on localhost:3000 because its still in development.
+
