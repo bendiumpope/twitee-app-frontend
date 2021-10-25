@@ -28,8 +28,6 @@ function index() {
 
     return (
         <div className={styles.container}>
-            {confirming 
-                ? <p>Loading</p> :
                 <div className={styles.innerContainer}>
                 <div className={styles.topText}>
                     <h2>Your email has been successfully verified</h2>
@@ -38,7 +36,6 @@ function index() {
                 
                 <input className={styles.login} type="button" value="Login" onClick={toLogin} />
             </div>
-            }
         </div>
     )
 }
